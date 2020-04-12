@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand|Righteous&display=swap" rel="stylesheet">
+    <title>Learn</title>
+</head>
+<body class="" style="background-image: url(https://i.kinja-img.com/gawker-media/image/upload/flsc05fqgzr86jmyctme.gif);background-repeat: no-repeat;background-size: 1500px 700px;">
+    <div class="jumbotron" style="height:150px;background-image: url(https://thumbs.gfycat.com/PettyJealousArcticfox-size_restricted.gif);background-repeat: no-repeat;background-size:1500px 300px;" >
+        <h3 style="font-family: 'Righteous', cursive;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Lobster', cursive; font-size: 50px; color:white;" align="center">Welcome to Learning Area</h3>
+    
+    </div>
+    
+    <br><br><br><br><br>
+    <form action="/lchecker" method="POST">
+        <div  align="center" class="jumbotron container btn-light" style="background-image: url(https://thumbs.gfycat.com/PettyJealousArcticfox-size_restricted.gif);background-repeat: no-repeat;background-size:1500px 300px;">
+            <label for="">
+                <input style="text-align: center; height:100px;width:300px;font-size:50px" type="text" name="val" autocomplete="off" autofocus >   
+            </label>
+        </div>
+    </form>
+
+
+    <script>
+        $('input').keydown(function(e) {
+            if (e.keyCode == 13) {
+                $(this).closest('form').submit();
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+>python3 -m venv brailenv
+>E:\VSCodeProj\Environments\brailenv\Scripts\activate.bat
+>deactivate
+
+Way to run
+After opening it press Ctrl+`
+
+Make sure that u r in E:\VSCodeProj\Brail>
+
+Write E:\VSCodeProj\Environments\brailenv\Scripts\activate.bat like
+        E:\VSCodeProj\Brail>E:\VSCodeProj\Environments\brailenv\Scripts\activate.bat
+
+Now you are in (brailenv)E:\VSCodeProj\Brail>
+
+Run command: python app.py
+
+Close all the tabs of google chrome
+
+run the IP
+
+follow the proper commands
+

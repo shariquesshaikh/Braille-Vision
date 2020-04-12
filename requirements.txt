@@ -1,0 +1,9 @@
+# 8/3/2020
+pip install pywin32
+pip install SpeechRecognition
+pip install pyttsx3
+pip install pyaudio
+pip install flask   
+pip install flask-sqlalchemy
+pip install keyboard
+pip install selenium
