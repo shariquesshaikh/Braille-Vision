@@ -61,7 +61,6 @@ def index():
                 count=0
                 break
 
-
 lflag=0
 
 @app.route('/learn', methods=['POST', 'GET'])
